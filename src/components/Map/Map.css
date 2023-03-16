@@ -27,11 +27,11 @@
 
 @media (max-width:960px){
     .side_cont{
-        max-width: 100%;
+        max-width: 0;
     }
 
     .side_cont_false{
-        max-width: 0;
+        max-width:  100%;
     }
 }
 
