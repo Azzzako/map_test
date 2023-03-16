@@ -12,9 +12,9 @@ export const MapView = ({ users }) => {
     const usuarios = users
     const [position, setPosition] = useState([19.4361609, -99.1373136])
     const [expanded, setExpanded] = useState({});
-    const [menu, setMenu] = useState(false)
+    const [menu, setMenu] = useState(true)
 
-    console.log(menu);
+    
 
 
     const mapRef = useRef(null)
